@@ -7,7 +7,7 @@ const Banner = () => {
             background: `url(${banner})`
         }} 
         >
-            <div class="hero-content flex-col lg:flex-row-reverse">
+            <div className="hero-content flex-col">
                 <div>
                     <h1 class="text-7xl text-white font-bold tracking-wide w-full">NEED NEW TOOLS?</h1>
                     <button class="btn btn-primary mt-8">Get Started</button>

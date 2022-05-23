@@ -5,7 +5,7 @@ import extra3 from '../../images/extra-3.jpg'
 
 const Extra = () => {
     return (
-        <div className='mt-20 grid grid-cols-3 gap-8 px-12'>
+        <div className='mt-20 grid lg:grid-cols-3 sm:grid-cols-1 gap-8 px-12'>
             {/* <img class="mask mask-parallelogram-4" src="https://api.lorem.space/image/shoes?w=160&h=160" /> */}
             <img className='rounded' src={extra1} />
             <img className='rounded' src={extra2} />
