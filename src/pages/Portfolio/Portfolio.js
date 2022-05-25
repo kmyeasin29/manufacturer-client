@@ -6,20 +6,20 @@ import myPhoto1 from '../../images/myphoto1.png';
 const Portfolio = () => {
     return (
         <section>
-            <div class="hero min-h-screen bg-base-200">
-                <div class="hero-content flex-col lg:flex-row-reverse">
+            <div className="hero min-h-screen bg-base-200">
+                <div className="hero-content flex-col lg:flex-row-reverse">
                     <img className='' style={{ width: '500px' }} src={myPhoto} alt='' />
                     <div>
-                        <h1 class="text-8xl font-bold">K.M. YEASIN</h1>
-                        <p class="text-3xl py-6">Creative Web Developper</p>
+                        <h1 className="text-8xl font-bold">K.M. YEASIN</h1>
+                        <p className="text-3xl py-6">Creative Web Developper</p>
                     </div>
                 </div>
             </div>
-            <div class="hero min-h-screen">
-                <div class="hero-content flex-col lg:flex-row">
+            <div className="hero min-h-screen">
+                <div className="hero-content flex-col lg:flex-row">
                     <img style={{ width: '300px' }} src={myPhoto1} />
                     <div>
-                        <h1 class="text-5xl font-bold">K.M. YEASIN</h1>
+                        <h1 className="text-5xl font-bold">K.M. YEASIN</h1>
                         <li className='text-2xl mt-5' >
                         EMAIL: km_yeasin@yahoo.com
                         </li>

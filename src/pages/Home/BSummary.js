@@ -7,7 +7,7 @@ import React from 'react';
 const BSummary = () => {
     return (
         <div>
-            <BeakerIcon class="h-5 w-5 text-blue-500" />
+            <BeakerIcon className="h-5 w-5 text-blue-500" />
         </div>
     );
 };
