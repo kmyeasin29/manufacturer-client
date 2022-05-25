@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Cable",
+        "image": "https://i.ibb.co/WBVzdLT/p-1.jpg",
+        "description": "Electrical tools are tools used to work on an electrical system. These can include a wide range of tools such as wire and cable cutters, wire strippers, coaxial compression tools, telephony tools, wire cutter/strippers, cable tie tools, accessories, and even",
+        "minimum": "50",
+        "available": "1500",
+        "price": "500"
+    },
+    {
+        "name": "Tools Box",
+        "image": "https://i.ibb.co/LCyHMD8/p-2.jpg",
+        "description": "Electrical tools are tools used to work on an electrical system. These can include a wide range of tools such as wire and cable cutters, wire strippers, coaxial compression tools, telephony tools, wire cutter/strippers, cable tie tools, accessories, and even",
+        "minimum": "20",
+        "available": "500",
+        "price": "1000"
+    },
+    {
+        "name": "Electric Drill",
+        "image": "https://i.ibb.co/nbXqTwd/p-6.jpg",
+        "description": "Electrical tools are tools used to work on an electrical system. These can include a wide range of tools such as wire and cable cutters, wire strippers, coaxial compression tools, telephony tools, wire cutter/strippers, cable tie tools, accessories, and even",
+        "minimum": "30",
+        "available": "300",
+        "price": "1500"
+    },
+    {
+        "name": "Mixture",
+        "image": "https://i.ibb.co/qnb2w1F/p-5.jpg",
+        "description": "Electrical tools are tools used to work on an electrical system. These can include a wide range of tools such as wire and cable cutters, wire strippers, coaxial compression tools, telephony tools, wire cutter/strippers, cable tie tools, accessories, and even",
+        "minimum": "10",
+        "available": "100",
+        "price": "50000"
+    },
+    {
+        "name": "Grinder",
+        "image": "https://i.ibb.co/gt9XpSw/p-8.jpg",
+        "description": "Electrical tools are tools used to work on an electrical system. These can include a wide range of tools such as wire and cable cutters, wire strippers, coaxial compression tools, telephony tools, wire cutter/strippers, cable tie tools, accessories, and even",
+        "minimum": "50",
+        "available": "500",
+        "price": "1000"
+    },
+    {
+        "name": "Hammer",
+        "image": "https://i.ibb.co/9b76NRw/p-9.jpg",
+        "description": "Electrical tools are tools used to work on an electrical system. These can include a wide range of tools such as wire and cable cutters, wire strippers, coaxial compression tools, telephony tools, wire cutter/strippers, cable tie tools, accessories, and even",
+        "minimum": "150",
+        "available": "2500",
+        "price": "100"
+    }
+]
