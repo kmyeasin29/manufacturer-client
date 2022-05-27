@@ -6,11 +6,11 @@ import Extra from './Extra';
 
 const Home = () => {
     return (
-        <div>
+        <div className='mb-8'>
             <Banner></Banner>
             <Extra></Extra>
-            {/* <BSummary></BSummary> */}
             <Tools></Tools>
+            <BSummary></BSummary>
         </div>
     );
 };

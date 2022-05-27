@@ -7,6 +7,8 @@ import Portfolio from './pages/Portfolio/Portfolio';
 import Login from './pages/Auth/Login';
 import Registration from './pages/Auth/Registration';
 import RequireAuth from './pages/Auth/RequireAuth';
+import Blogs from './pages/Blogs/Blogs';
+import NotFound from './pages/NotFound';
 
 
 function App() {
@@ -15,16 +17,17 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/blog' element={<Blogs></Blogs>}></Route>
         <Route path='/' element={<Portfolio></Portfolio>
         }></Route>
-        {/* <Route path='/portfolio' element={
+        <Route path='/portfolio' element={
           <RequireAuth>
-            <Portfolio></Portfolio>
+            {/* <Portfolio></Portfolio> */}
           </RequireAuth>
-        }></Route> */}
+        }></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/Registration' element={<Registration></Registration>}></Route>
-
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
