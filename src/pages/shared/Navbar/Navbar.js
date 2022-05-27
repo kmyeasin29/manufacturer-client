@@ -20,6 +20,9 @@ const Navbar = () => {
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/blog'>Blogs</Link></li>
                         <li><Link to='/portfolio'>Portfolio</Link></li>
+                        <li><Link to='/dashboard'>Dashboard</Link></li>
+                        <li><Link to='/purchase'>Purchase</Link></li>
+                        <li><Link to='/order'>My Order</Link></li>
                         <li>{user? <button class="btn btn-ghost">Logout</button>:<Link to='/login'>Login</Link>}</li>
                     </ul>
                 </div>
@@ -32,6 +35,10 @@ const Navbar = () => {
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/blog'>Blogs</Link></li>
                     <li><Link to='/portfolio'>Portfolio</Link></li>
+                    <li><Link to='/dashboard'>Dashboard</Link></li>
+                    <li><Link to='/purchase'>Purchase</Link></li>
+                    <li><Link to='/order'>My Order</Link></li>
+                    <li><Link to='/review'>Review</Link></li>
                     <li>{user? <button class="btn btn-ghost" onClick={handleSignOut}>Logout</button>:<Link to='/login'>Login</Link>}</li>
                 </ul>
             </div>

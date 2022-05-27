@@ -2,12 +2,19 @@ import React, { useEffect, useState } from 'react';
 import Tool from './Tool';
 
 const Tools = () => {
+    // const [cart, setCart] = useState([])
     const [tools, setTools] = useState([])
+
+    // const handleClick = tool => {
+    //     if (cart.indexOf(tool) !== -1) return;
+    //     setCart([...cart, tool]);
+    //     console.log(tool);
+    // }
 
     useEffect(() => {
         fetch('http://localhost:5000/service')
             .then(res => res.json())
-            .then(data => setTools(data))
+            .then(data => setTools(data));
     }, [])
     return (
         <div className='mt-8'>
@@ -15,8 +22,9 @@ const Tools = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-4 px-12'>
 
                 {
-                    tools.slice(0, 6).map(tool => <Tool
+                tools.slice(0, 6).map(tool => <Tool
                         tool={tool}
+                        // handleClick={handleClick}
                     ></Tool>)
                 }
             </div>

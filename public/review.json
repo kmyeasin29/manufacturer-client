@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Devon Smith",
+        "Comment": "Electrical tools are tools used to work on an electrical system. These can include a wide range of tools such as wire and cable cutters, wire strippers, coaxial compression tools, telephony tools, wire cutter/strippers, cable tie tools, accessories, and even",
+        "Ratting": "5 star"
+    },
+    {
+        "id": 2,
+        "name": "Christian",
+        "Comment": "Electrical tools are tools used to work on an electrical system. These can include a wide range of tools such as wire and cable cutters, wire strippers, coaxial compression tools, telephony tools, wire cutter/strippers, cable tie tools, accessories, and even",
+        "Ratting": "5 star"
+    },
+    {
+        "id": 3,
+        "name": "Nick",
+        "Comment": "Electrical tools are tools used to work on an electrical system. These can include a wide range of tools such as wire and cable cutters, wire strippers, coaxial compression tools, telephony tools, wire cutter/strippers, cable tie tools, accessories, and even",
+        "Ratting": "4.9 star"
+    },
+    {
+        "id": 4,
+        "name": "G. Rodriguez",
+        "Comment": "Electrical tools are tools used to work on an electrical system. These can include a wide range of tools such as wire and cable cutters, wire strippers, coaxial compression tools, telephony tools, wire cutter/strippers, cable tie tools, accessories, and even",
+        "Ratting": "4.8 star"
+    },
+    {
+        "id": 5,
+        "name": "Capt. Jack",
+        "Comment": "Electrical tools are tools used to work on an electrical system. These can include a wide range of tools such as wire and cable cutters, wire strippers, coaxial compression tools, telephony tools, wire cutter/strippers, cable tie tools, accessories, and even",
+        "Ratting": "5 star"
+    },
+    {
+        "id": 6,
+        "name": "Zane",
+        "Comment": "Electrical tools are tools used to work on an electrical system. These can include a wide range of tools such as wire and cable cutters, wire strippers, coaxial compression tools, telephony tools, wire cutter/strippers, cable tie tools, accessories, and even",
+        "Ratting": "5 star"
+    }
+]

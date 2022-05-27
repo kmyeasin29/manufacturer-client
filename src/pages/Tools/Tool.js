@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Tool = ({tool}) => {
+const Tool = ({tool, handleClick}) => {
     const {name, image, description, available, minimum, price}=tool;
     return (
         <div className="card w-96 bg-base-100 shadow-xl">
@@ -15,7 +15,7 @@ const Tool = ({tool}) => {
                 <h2 className='text-xl'>Minimum Order: {minimum} pcs</h2>
                 <h2 className='text-xl'>Price: ${price}</h2>
                 <div className="card-actions mt-3">
-                    <button className="btn btn-primary item-center w-full">Buy Now</button>
+                    <button onClick={()=>handleClick(tool)} className="btn btn-primary item-center w-full">Buy Now</button>
                 </div>
                 </div>
                 
