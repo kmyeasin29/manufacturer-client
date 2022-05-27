@@ -6,6 +6,7 @@ import Footer from './pages/shared/Footer';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Login from './pages/Auth/Login';
 import Registration from './pages/Auth/Registration';
+import RequireAuth from './pages/Auth/RequireAuth';
 
 
 function App() {
@@ -14,7 +15,13 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
+        <Route path='/' element={<Portfolio></Portfolio>
+        }></Route>
+        {/* <Route path='/portfolio' element={
+          <RequireAuth>
+            <Portfolio></Portfolio>
+          </RequireAuth>
+        }></Route> */}
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/Registration' element={<Registration></Registration>}></Route>
 
