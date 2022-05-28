@@ -12,7 +12,7 @@ const Tools = () => {
     // }
 
     useEffect(() => {
-        fetch('http://localhost:5000/service')
+        fetch('https://stormy-dusk-68089.herokuapp.com/service')
             .then(res => res.json())
             .then(data => setTools(data));
     }, [])
